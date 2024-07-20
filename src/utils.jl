@@ -30,8 +30,8 @@
     network hydrogels revealed by various modes of stretching. Macromolecules 51, 5245–5257 (2018). https://doi.org/10.1021/
     acs.macromol.8b01033
 
-    data_type: uniaxial, equibiaxial, pure_shear
-    data_name: Treloar_1944, Yohsuke, Meunier, Mai
+    data_type:  :uniaxial, :equibiaxial, :pure_shear
+    data_name: :Treloar_1944, :Yohsuke, :Meunier, :Mai
 
     ```
     λ, P =  read_data!(data_name, data_type)
@@ -39,8 +39,6 @@
     ```
 
 """
-
-
 
 function read_data!(data_name, data_type)
     if data_name == Treloar_1944
