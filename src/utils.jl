@@ -42,18 +42,6 @@
 
 
 
-
-# Define constants for data names
-const Treloar_1944 = :Treloar_1944
-const Yohsuke = :Yohsuke
-const Meunier = :Meunier
-const Mai = :Mai
-
-# Define constants for data types
-const uniaxial = :uniaxial
-const equibiaxial = :equibiaxial
-const pure_shear = :pure_shear
-
 function read_data!(data_name, data_type)
     if data_name == Treloar_1944
         if data_type == uniaxial
