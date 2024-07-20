@@ -3,6 +3,9 @@ uuid = "42b0c7c0-8784-4dc1-a951-b8452052d1b1"
 authors = ["Aminofa70 <amin.alibakhshi@upm.es> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+
 [compat]
 julia = "1.6.7"
 
