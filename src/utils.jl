@@ -1,4 +1,4 @@
-using DelimitedFiles
+import  DelimitedFiles
 
 """
     function to read  experimental data for some hyperelastic materials
@@ -106,3 +106,4 @@ function read_data!(data_name::Int, data_type::Int)
     
     return λ, P
 end
+
