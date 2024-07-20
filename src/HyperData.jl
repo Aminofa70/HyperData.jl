@@ -7,6 +7,4 @@ export read_data!, Treloar_1944, Yohsuke, Meunier, Mai, uniaxial, equibiaxial, p
 include("utils.jl")
 
 
-
-
 end
