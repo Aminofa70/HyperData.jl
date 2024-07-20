@@ -1,3 +1,3 @@
 using HyperData
 
-λ, P = read_data!(:Treloar_1944, :uniaxial)
+λ, P = read_data!(Yohsuke, equibiaxial)
