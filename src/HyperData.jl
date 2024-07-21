@@ -14,5 +14,6 @@ function call_data()
     return λ, P
 end
 
+export call_data
 end # module HyperData
 
