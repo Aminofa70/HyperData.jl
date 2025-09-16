@@ -44,7 +44,7 @@ function treloar_equibi()
 return matrix
 end #end function 
 ################################################################
-function treloar_shear()
+function treloar_pure_shear()
     matrix = [
         1.0 0.0
         1.464053609 0.403908445
